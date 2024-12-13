@@ -1,4 +1,4 @@
-highChestOnly = true
+highChestOnly = false
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()
 local PlaceID = game.PlaceId
@@ -90,9 +90,9 @@ end)
 local AllowRunService = true
 local AllowRunServiceBind = Instance.new("BindableFunction")
 function AllowRunServiceBind.OnInvoke(args)
-    if args == "Enable" then
+    if args == "discord1off" then
         AllowRunService = true
-    elseif args == "Disable" then
+    elseif args == "discord2on" then
         AllowRunService = false
     end
     local CoreGui = game:GetService("StarterGui")
@@ -102,8 +102,8 @@ function AllowRunServiceBind.OnInvoke(args)
         Icon = "rbxthumb://type=Asset&id=15338990738&w=150&h=150",
         Duration = math.huge,
         Callback = AllowRunServiceBind,
-        Button1 = "Enable",
-        Button2 = "Disable",
+        Button1 = "discord1off",
+        Button2 = "discord2on",
     })
 end
 
