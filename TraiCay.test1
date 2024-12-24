@@ -24,9 +24,6 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
                         )
                     ) do
                         v.Function()
-                    end
-                end
-            end
 local ScreenGui = Instance.new("ScreenGui")
 local LinkLabel = Instance.new("TextLabel")
 local PingLabel = Instance.new("TextLabel")
