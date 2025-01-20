@@ -1,3 +1,7 @@
+local Settings = {
+JoinTeam = "Pirates"; -- Pirates/Marines
+Translator = true; -- true/false
+}
 
 
 if not game.CoreGui:FindFirstChild("XScreen") then
