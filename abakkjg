@@ -1,6 +1,6 @@
 local Player = game.Players.LocalPlayer
 local VirtualInputManager = game:GetService("VirtualInputManager")
-local Material = loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/Test/refs/heads/main/README.md"))()"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/Test/refs/heads/main/README.md"))()
  
 local Hub = Material.Load({
 	Title = "Nhớ Đăng Ký Kênh KimP Roblox Nha !",
