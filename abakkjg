@@ -1,9 +1,9 @@
 local Player = game.Players.LocalPlayer
 local VirtualInputManager = game:GetService("VirtualInputManager")
-local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/VGB-VGB-VGB/Test/refs/heads/main/README.md"))()
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/VanThanhLuxucu/refs/heads/main/main.txt"))()
  
 local Hub = Material.Load({
-	Title = "Nhớ Đăng Ký Kênh KimP Roblox Nha !",
+	Title = "VGB Chest Farm",
 	Style = 3,
 	SizeX = 300,
 	SizeY = 300,
@@ -22,7 +22,7 @@ _G.Play = false
 _G.CloseAllScript = false
  
 local ToggleAutoChest = Home.Toggle({
-	Text = "Chăm Chỉ Bạn Sẽ Có 1 Tỉ Beli",
+	Text = "Auto Chest",
 	Callback = function(Value)
 		_G.Play = Value
 	end,
